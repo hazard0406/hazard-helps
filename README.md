@@ -8,7 +8,6 @@
 This project serves mostly as a proof of concept for the ideal clientless solution to bypassing censorship. A good use case of this project would be if you ever needed a clientless solution to use Tor or leave minimal traces of device activity. Simply host this project on any domain and have an alternative solution to a VPN without needing to download anything on said device. Being a secure web proxy service, it supports numerous sites while being updated frequently and concentrating on being easy to self-host. SwiftProxy - created by hzr.d works with a large number of sites, including YouTube, Discord, GeForce NOW and more!
 Also has a good amount of locally hosted games featured on the site.
 
-#### Over 30M+ users since 2020. Thank you so much for the support I could have never imagined how massive the web proxy community has become.
 
 #### Current Branch: Latest
 
@@ -16,14 +15,12 @@ Also has a good amount of locally hosted games featured on the site.
 
 - Latest (master; built for FOSS and SEO)
 - Beta (pending changes; changes that may break things)
-- Production (v4, v5, v6; stable version of InvisiProxy LTS. Changes for self hosting in production settings; max filtering evasion and request handling)
+- Production (v4, v5, v6; stable version of SwiftProxy. Changes for self hosting in production settings; max filtering evasion and request handling)
 </details>
 
 #### Considering switching branches for self-hosting to a production branch!
 
 View the <a href="#deploy-SwiftProxy">self-deployment options</a> if you wish to self host this project. Can't deploy using any of the free options? Check out Railway or look into cheap, paid VPS hosting solutions. If you don't wish to self-host join the discord for more official instance links that are restocked frequently.
-
-**Be sure to join Titanium Network's Discord for more official site links:** <a href="https://discord.gg/unblock">https://discord.gg/unblock</a>
 
 <br>
 
@@ -43,33 +40,6 @@ View the <a href="#deploy-SwiftProxy">self-deployment options</a> if you wish to
 | GeForce NOW                | Game library with moderately decent titles and open-source emulation projects                                                         |
 | Spotify                    | Bypass regional proxy blocks by swapping regions or enabling Tor                                                                      |
 | And essentially all sites! | Built for intensive production loads and ease of setup                                                                                |
-
-
-
-## Deploy SwiftProxy
-
-### Free Deployments
-
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?name=SwiftProxy&type=git&repository=QuiteAFancyEmerald%2FSwiftProxy&branch=v6.9.6_production&builder=dockerfile&ports=8080%3Bhttp%3B%2F)
-[![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/BinBashBanana/deploy-buttons/archive/refs/heads/main.zip)
-
-<details><summary>Alternative Free Sources</summary>
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/QuiteAFancyEmerald/SwiftProxy)
-[![Deploy to Fly.io](https://img.shields.io/badge/Deploy%20to-Fly.io-blue?logo=fly.io)](https://fly.io/launch?repo=https://github.com/QuiteAFancyEmerald/SwiftProxy)
-
-</details>
-
-### Production Paid/Free Options (Requires Payment Info)
-
-[![Deploy to Azure](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/azure.svg)](https://deploy.azure.com/?repository=https://github.com/QuiteAFancyEmerald/SwiftProxy)
-[![Deploy to IBM Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/QuiteAFancyEmerald/SwiftProxy)
-[![Deploy to Amplify Console](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/QuiteAFancyEmerald/SwiftProxy)
-[![Run on Google Cloud](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/QuiteAFancyEmerald/SwiftProxy)
-
-#### What happened to Replit/Heroku Deployment?
-
-Replit is no longer free and Heroku has a set policy against web proxies. Try GitHub Codespaces or Gitpod instead for development on the cloud OR Koyeb for free hosting.
 
 ### GitHub Codespaces
 
