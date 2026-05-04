@@ -1,8 +1,8 @@
 {
-  "name": "invisiproxy",
+  "name": "swiftproxy",
   "version": "6.9.6",
-  "repository": "https://github.com/QuiteAFancyEmerald/InvisiProxy",
-  "description": "InvisiProxy LTS is a web proxy service that helps you access websites that may be blocked by your network, government or policy all within your browser with no download or setup.",
+  "repository": "https://github.com/QuiteAFancyEmerald/SwiftProxy",
+  "description": "SwiftProxy - created by hzr.d is a web proxy service that helps you access websites that may be blocked by your network, government or policy all within your browser with no download or setup.",
   "main": "backend.js",
   "engines": {
     "node": "20.x"

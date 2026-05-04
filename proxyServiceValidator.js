@@ -1,5 +1,5 @@
 // This file is solely used for the automatically run GitHub job, which checks to
-// see if all InvisiProxy code is working properly (at least on an Ubuntu machine).
+// see if all SwiftProxy code is working properly (at least on an Ubuntu machine).
 
 const axios = require('axios');
 const puppeteer = require('puppeteer');

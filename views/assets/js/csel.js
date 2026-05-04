@@ -196,7 +196,7 @@ if (document.getElementById('csel')) {
       // Allow users to reset the title to default if nothing is entered.
       focusElement.focus();
       removeStorage('Title');
-      pageTitle('InvisiProxy LTS');
+      pageTitle('SwiftProxy - created by hzr.d');
     }
   });
 

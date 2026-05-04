@@ -16,4 +16,4 @@ Disallow: /scram
 User-agent: *
 Disallow: /uv
  
-Sitemap: https://invisiproxy.com/sitemap.xml
+Sitemap: https://swiftproxy.com/sitemap.xml

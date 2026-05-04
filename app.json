@@ -1,10 +1,10 @@
 {
-  "name": "InvisiProxy v6.9.5",
-  "description": "InvisiProxy is a secure web proxy service supporting numerous sites while concentrating on detail with design, mechanics, and features. Bypass web filters regardless of whether it is an extension or network-based.",
-  "repository": "https://github.com/QuiteAFancyEmerald/InvisiProxyr",
-  "logo": "https://raw.githubusercontent.com/QuiteAFancyEmerald/InvisiProxy/master/views/assets/img/icon.png",
+  "name": "SwiftProxy v6.9.5",
+  "description": "SwiftProxy is a secure web proxy service supporting numerous sites while concentrating on detail with design, mechanics, and features. Bypass web filters regardless of whether it is an extension or network-based.",
+  "repository": "https://github.com/QuiteAFancyEmerald/SwiftProxy",
+  "logo": "https://raw.githubusercontent.com/QuiteAFancyEmerald/SwiftProxy/master/views/assets/img/icon.png",
   "keywords": [
-    "invisiproxy"
+    "swiftproxy"
     "holyunblocker",
     "rammerhead",
     "scramjet",

@@ -1,9 +1,9 @@
 {
-  "short_name": "InvisiProxy LTS",
-  "name": "InvisiProxy LTS | Free Web Proxy Service",
+  "short_name": "SwiftProxy",
+  "name": "SwiftProxy - created by hzr.d | Free Web Proxy Service",
   "icons": [
     {
-      "src": "https://invisiproxy.com/assets/img/icon.png",
+      "src": "https://swiftproxy.com/assets/img/icon.png",
       "type": "image/png",
       "sizes": "300x300"
     },
@@ -48,7 +48,7 @@
   "display": "standalone",
   "theme_color": "#b4213b",
   "background_color": "#1f003e",
-  "description": "InvisiProxy LTS is a free and secure web proxy service that helps you bypass web filters and access blocked websites. Enjoy anonymous browsing and internet freedom on devices like Chromebooks at school or work.",
+  "description": "SwiftProxy - created by hzr.d is a free and secure web proxy service that helps you bypass web filters and access blocked websites. Enjoy anonymous browsing and internet freedom on devices like Chromebooks at school or work.",
   "short_description": "Free web proxy service for bypassing filters and accessing blocked sites.",
   "keywords": [
     "proxy",
@@ -60,7 +60,7 @@
     "proxy server",
     "proxy YouTube",
     "bypass web filters",
-    "InvisiProxy",
+    "SwiftProxy",
     "unblock Chromebook",
     "Titanium Network",
     "fast proxy",
@@ -71,7 +71,7 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://invisiproxy.com"
+      "url": "https://swiftproxy.com"
     },
     {
       "platform": "github",
