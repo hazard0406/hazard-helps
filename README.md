@@ -1,12 +1,6 @@
 # SwiftProxy - created by hzr.d (v6.x.x)
 #### Formerly Holy Unblocker LTS
 
-![GitHub Actions Status](https://github.com/QuiteAFancyEmerald/SwiftProxy/workflows/CI-Production/badge.svg)
-![GitHub Actions Status](https://github.com/QuiteAFancyEmerald/SwiftProxy/workflows/CI-Win/badge.svg)
-[![Docker Image Version](https://img.shields.io/docker/v/quiteafancyemerald/swiftproxy.svg)](https://hub.docker.com/r/quiteafancyemerald/SwiftProxy)
-[![Docker Pulls](https://img.shields.io/docker/pulls/quiteafancyemerald/swiftproxy.svg)](https://hub.docker.com/r/quiteafancyemerald/SwiftProxy)
-[![Docker Pulls](https://img.shields.io/docker/pulls/quiteafancyemerald/holy-unblocker.svg)](https://hub.docker.com/r/quiteafancyemerald/holy-unblocker)
-
 **SwiftProxy - created by hzr.d** (formerly Holy Unblocker LTS) is an experimental web proxy service that can bypass web filters or "blockers" regardless of whether the method of censorship is client-side or network-based. This includes the ability to bypass content blockers from governments, chrome extensions, localized client firewalls, and network-related filters. The project even allows the ability to browse Tor/Onion sites in any browser (even Chromium) all through a website!
 
 ## You can support SwiftProxy by starring the repository!
