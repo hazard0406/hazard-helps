@@ -340,7 +340,7 @@ ${l}`}}if((0,n.U5)("rewriterLogs",r.base))for(let e of s.errors)console.error("o
                     ></code
                 >
                 <p class="footer-spacing">
-                    <i>{{mask}}{{InvisiProxy LTS © 2020-2025 | Made With Love}} </i
+                    <i>{{mask}}{{SwiftProxy LTS © 2020-2025 | Made With Love}} </i
                     ><i class="nf nf-fa-heart"></i>
                 </p>
                 </div>

@@ -41,8 +41,8 @@
   "delimiter": "*",
   "textMasks": {
 
-    "InvisiProxy": ["In*vi*s*i*P*r*o*x*y"],
-    "InvisiProxy LTS": ["In*vi*s*i*P*r*o*x*y L*T*S"],
+    "SwiftProxy": ["S*w*i*f*t*P*r*o*x*y"],
+    "SwiftProxy LTS": ["S*w*i*f*t*P*r*o*x*y L*T*S"],
     "Holy Unblocker": ["H*ol*y *Un*b*lo*c*k*er"],
     "Holy Unblocker LTS": ["H*ol*y *Un*b*lo*c*k*er *L*T*S"],
     "Webretro": ["W*e*b*r*e*t*r*o"],

@@ -97,11 +97,9 @@ Either use the button above to deploy to the deployment options above or type th
 Please ensure you are using Node 20.x as well:
 
 ```bash
-git clone https://github.com/QuiteAFancyEmerald/InvisiProxy.git
+git clone https://github.com/QuiteAFancyEmerald/SwiftProxy.git
 
-cd InvisiProxy
-
-# Edit config.js and set production to true if you want to use pm2 (Allows for easier VPS hosting)
+cd SwiftProxy
 npm run fresh-install
 npm start
 
@@ -344,8 +342,7 @@ Out of the list of hosting providers Dedipath and Azure rank first as a preferen
 
 After you have selected a decent VPS, use Cloudflare for the DNS records for both the site and the subdomains for the proxies.
 
-This is an example of DNS records. Self-hosting will require `A records` preferably.
-<img src="https://raw.githubusercontent.com/titaniumnetwork-dev/SwiftProxy/master/views/assets/img/dnssetup.png" width="500"></img>
+This is an example of DNS records. Self-hosting will require `A records` preferably. See your DNS provider's documentation for detailed setup instructions.
 
 - `@` and `www.example.com` are being used for SwiftProxy LTS.
 - `a.example.com` is being used for other instances like Libreddit, Invidious or web ported games depending on what the site maintainer needs.
@@ -377,11 +374,9 @@ Preferably if you have your own device use Visual Studio Code. Pretty much the b
 Not going to go too in depth with this part but first fork this repository. The clone it locally through a Terminal of some sort depending on what OS you are on. Make sure you navigate to the folder you want to set this up in.
 
 ```
-git clone https://github.com/QuiteAFancyEmerald/InvisiProxy.git
+git clone https://github.com/QuiteAFancyEmerald/SwiftProxy.git
 
-cd InvisiProxy
-
-npm run fresh-install
+cd SwiftProxy
 
 # If you wish to start the project
 

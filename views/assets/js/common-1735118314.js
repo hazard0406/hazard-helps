@@ -917,9 +917,7 @@ const preparePage = async () => {
             ((desc = document.createElement('p')),
               (credits = document.createElement('p')));
 
-            a.href = '#';
-            img.src = `{{route}}{{/assets/img/}}${dir}/` + item.img;
-            title.textContent = item.name;
+            a.href = '#';\n            title.textContent = item.name;
             desc.textContent = item.description;
             credits.textContent = item.credits;
 
@@ -929,7 +927,6 @@ const preparePage = async () => {
                   '<br>{{mask}}{{Credits: Check out the full site at }}<a target="_blank" href="{{route}}{{/truffled}}">{{mask}}{{truffled.lol}}</a> //{{mask}}{{ discord.gg/vVqY36mzvj}}';
             }
 
-            a.appendChild(img);
             a.appendChild(title);
             a.appendChild(desc);
 

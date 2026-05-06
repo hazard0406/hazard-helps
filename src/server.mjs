@@ -285,7 +285,7 @@ app.get(serverUrl.pathname + ':path', (req, reply) => {
   // If a GET request is sent to /test-shutdown and a script-generated shutdown file
   // is present, gracefully shut the server down.
   if (reqPath === 'test-shutdown' && existsSync(shutdown)) {
-    console.log('InvisiProxy is shutting down.');
+    console.log('SwiftProxy is shutting down.');
     app.close();
     unlinkSync(shutdown);
     process.exitCode = 0;
@@ -330,7 +330,7 @@ else {
 }
 
 app.listen({ port: serverUrl.port, host: serverUrl.hostname });
-console.log(`InvisiProxy is listening on port ${serverUrl.port}.`);
+console.log(`SwiftProxy is listening on port ${serverUrl.port}.`);
 console.log(`When hosting with a reverse proxy please ensure you are using NGINX only.\nCaddy and Apache have security risks due to wisp-js and loopbacks. Please configure them correctly.\nNGINX is recommended and used for production. Ports are whitelisted and security is maintained with NGINX only.`);
 if (config.disguiseFiles)
   console.log(

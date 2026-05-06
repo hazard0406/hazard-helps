@@ -7,7 +7,7 @@ const config = Object.freeze(
 );
 
 const ecosystemConfig = Object.freeze(
-  ecosystem.apps.find((app) => app.name === 'InvisiProxyLTS') || ecosystem.apps[0]
+  ecosystem.apps.find((app) => app.name === 'SwiftProxyLTS') || ecosystem.apps[0]
 );
 
 /* Record the server's location as a URL object, including its host and port.
@@ -84,7 +84,7 @@ let pages = {
 
 let externalPages = {
   github: {
-    default: 'https://github.com/QuiteAFancyEmerald/InvisiProxy',
+    default: 'https://github.com/QuiteAFancyEmerald/SwiftProxy',
     aos: 'https://github.com/michalsnik/aos',
     'bare-module': 'https://github.com/motortruck1221/bare-as-module3',
     'bare-mux': 'https://github.com/MercuryWorkshop/bare-mux',
@@ -101,7 +101,7 @@ let externalPages = {
   'tor-project': 'https://tb-manual.torproject.org/installation',
   'titaniumnetwork-documentation': 'https://docs.titaniumnetwork.org',
   'status': 'https://status.titaniumnetwork.org',
-  'patreon': 'https://www.patreon.com/invisiproxy',
+  'patreon': 'https://www.patreon.com/swiftproxy',
   'titaniumnetwork-discord': 'https://discord.gg/CwWpdGkuWY',
   'truffled': 'https://truffled.lol',
   'rammerhead-discord': 'https://discord.gg/VNT4E7gN5Y',
