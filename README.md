@@ -54,33 +54,6 @@ View the <a href="#deploy-SwiftProxy">self-deployment options</a> if you wish to
 
 </details>
 
-### Partners
-- <a href="https://gitlab.com/fp-production/fp">The Freedom Project (Hard Fork)</a>
-- <a href="https://github.com/aukak/truffled">Truffled (Partner)</a>
-
-## Table of contents:
-
-- [Setup](#how-to-setup)
-  - [Terminal](#terminal)
-  - [Project Configuration](#configuration)
-    - [Server Configuration](#server-configuration-setup)
-    - [TOR Routing](#toronionsocks5-routing-setup)
-    - [Proxy](#proxy-configuration)
-    - [Client Navigation](#client-navigation-configuration)
-    - [Games Management](#games-management)
-  - [Structure](#structure)
-    - [Structure Information](#structure-information)
-    - [Static Files](#details-of-views)
-    - [Scripts](#scripts-located-in-viewsassetsjs)
-  - [Future Additions](#future-additions)
-  - [Beginner's Explanation](#vague-explanation-for-beginners-with-external-proxies-and-hosting)
-    - [Hosting Providers](#list-of-some-good-hosting-options)
-    - [Domain Setup](#domain-steps)
-    - [Cloudflare Setup](#cloudflare-steps)
-    - [Workspace Configurations](#workspace-configurations)
-  - [Detailed FAQ](#detailed-faq)
-  - [More Information](#more-information)
-
 ## How to Setup
 
 #### It is highly recommended you switch branches via your IDE to a production released branch. Often the master branch contains unstable or WIP changes.|
@@ -96,7 +69,7 @@ Either use the button above to deploy to the deployment options above or type th
 Please ensure you are using Node 20.x as well:
 
 ```bash
-git clone https://github.com/QuiteAFancyEmerald/SwiftProxy.git
+git clone https://github.com/hazard0406/SwiftProxy.git
 
 cd SwiftProxy
 npm run fresh-install
@@ -156,19 +129,19 @@ https://github.com/nvm-sh/nvm
 https://docs.titaniumnetwork.org/guides/nginx/
 
 ### Tor Support (Optional)
-https://github.com/QuiteAFancyEmerald/SwiftProxy#toronionsocks5-routing-setup
+https://github.com/hazard0406/SwiftProxy#toronionsocks5-routing-setup
 
 ### Configurating SwiftProxy
 Most important options are production along with the obfuscation and DOM masquerading techniques. 
 
-From there just configure as needed: https://github.com/QuiteAFancyEmerald/SwiftProxy#configuration
+From there just configure as needed: https://github.com/hazard0406/SwiftProxy#configuration
 
 ### Cloning and Running SwiftProxy
 
 Then run the respective process; if you have production set to true in the configuration pm2 will be automatically enabled with our own workers/cache system. 
 
 ```
-git clone https://github.com/QuiteAFancyEmerald/SwiftProxy.git
+git clone https://github.com/hazard0406/SwiftProxy.git
 cd Swiftoxy
 
 npm run fresh-start
