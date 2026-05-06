@@ -1,5 +1,4 @@
-# SwiftProxy - created by hzr.d (v6.x.x)
-#### Formerly Holy Unblocker LTS
+# SwiftProxy - created by hzr.d (v6.x.x)(a.k.a. InvisiProxy)
 
 **SwiftProxy - created by hzr.d** (formerly Holy Unblocker LTS) is an experimental web proxy service that can bypass web filters or "blockers" regardless of whether the method of censorship is client-side or network-based. This includes the ability to bypass content blockers from governments, chrome extensions, localized client firewalls, and network-related filters. The project even allows the ability to browse Tor/Onion sites in any browser (even Chromium) all through a website!
 
